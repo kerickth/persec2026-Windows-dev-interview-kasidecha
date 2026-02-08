@@ -24,7 +24,7 @@ CodingTest.sln
 - [x] Question 3 - Autocomplete
 - [x] Question 4 - Modern Roman Numerals
 - [x] Question 5 - Digit Sorting
-- [ ] Question 6 - 
+- [x] Question 6 - Tribonacci Sequence
 
 ## Question 1 – Bracket Validation
 ### Description
@@ -111,5 +111,15 @@ Reorder digits of a positive integer from highest to lowest and return as an int
 1989 → 9981  
 2679 → 9762  
 9163 → 9631
+
+## Question 6 – Tribonacci
+### Description
+Generate Tribonacci sequence using up to 3 initial values.
+Each new value is the sum of the previous 3 values.
+
+### Test Cases
+Input: f([1, 3, 5],5)  => Output: [1, 3, 5, 9, 17]  
+Input: f([2, 2, 2],3)  => Output: [2, 2, 2]  
+Input: f([10, 10, 10],4)  => Output: [10, 10, 10, 30]  
 
 ## ===== END =====
