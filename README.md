@@ -23,7 +23,7 @@ CodingTest.sln
 - [x] Question 2 – Custom string sorting
 - [x] Question 3 - Autocomplete
 - [x] Question 4 - Modern Roman Numerals
-- [ ] Question 5 - 
+- [x] Question 5 - Digit Sorting
 - [ ] Question 6 - 
 
 ## Question 1 – Bracket Validation
@@ -101,5 +101,15 @@ Output : 68
 
 Input  : CIX
 Output : 109
+
+## Question 5 – Digit Sorting
+### Description
+Reorder digits of a positive integer from highest to lowest and return as an integer.
+
+### Test Cases
+3008 → 8300  
+1989 → 9981  
+2679 → 9762  
+9163 → 9631
 
 ## ===== END =====
