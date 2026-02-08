@@ -21,7 +21,7 @@ CodingTest.sln
 ## Status
 - [x] Question 1 – Bracket validation
 - [x] Question 2 – Custom string sorting
-- [ ] Question 3 - 
+- [x] Question 3 - Autocomplete
 - [ ] Question 4 - 
 - [ ] Question 5 - 
 - [ ] Question 6 - 
@@ -53,5 +53,20 @@ Output : [SG20, TH2, TH19]
 
 Input : [TH10, TH3Netflix, TH1, TH7]  
 Output : [TH1, TH3Netflix, TH7, TH10]  
+
+## Question 3 – Autocomplete
+### Description
+Return autocomplete results from a list of strings by:
+1.Case-insensitive search
+2.Matching items that contain the search keyword
+3.Sorting by keyword position: [Beginning, Middle, End]
+4.Limit results by maxResult
+
+### Test Cases
+Input : [Mother, Think, Worthy, Apple, Android]  
+Search : th  
+MaxResult : 2  
+Output: [Think, Mother]  
+
 
 ## ===== END =====
