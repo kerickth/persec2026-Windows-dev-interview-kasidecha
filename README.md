@@ -20,7 +20,7 @@ CodingTest.sln
 
 ## Status
 - [x] Question 1 – Bracket validation
-- [ ] Question 2 – 
+- [x] Question 2 – Custom string sorting
 - [ ] Question 3 - 
 - [ ] Question 4 - 
 - [ ] Question 5 - 
@@ -40,4 +40,18 @@ A string is considered valid if:
 ([)] => False  
 {[]} => True  
 
-# ===== END =====
+## Question 2 – String Sorting
+### Description
+Sort an array of strings by:
+1. Prefix (alphabetical order)
+2. Numeric value (ascending)
+3. Suffix (alphabetical order)
+
+### Test Cases
+Input : [TH19, SG20, TH2]  
+Output : [SG20, TH2, TH19]  
+
+Input : [TH10, TH3Netflix, TH1, TH7]  
+Output : [TH1, TH3Netflix, TH7, TH10]  
+
+## ===== END =====
