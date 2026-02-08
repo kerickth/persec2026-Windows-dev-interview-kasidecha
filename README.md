@@ -22,7 +22,7 @@ CodingTest.sln
 - [x] Question 1 – Bracket validation
 - [x] Question 2 – Custom string sorting
 - [x] Question 3 - Autocomplete
-- [ ] Question 4 - 
+- [x] Question 4 - Modern Roman Numerals
 - [ ] Question 5 - 
 - [ ] Question 6 - 
 
@@ -68,5 +68,38 @@ Search : th
 MaxResult : 2  
 Output: [Think, Mother]  
 
+## Question 4 - Modern Roman Numerals
+### Description
+Convert numbers between Integer and Roman Numerals.
+Support symbols: I, V, X, L, C, D, M
+Support subtractive notation (e.g. IV, IX, CM)
+Implement 2 functions:
+1.IntToRoman(int number) -> string
+2.RomanToInt(string roman) -> int
+
+### Test Cases
+Input  : 1989
+Output : MCMLXXXIX
+
+Input  : 2000
+Output : MM
+
+Input  : 68
+Output : LXVIII
+
+Input  : 109
+Output : CIX
+
+Input  : MCMXXXIX
+Output : 1939
+
+Input  : MM
+Output : 2000
+
+Input  : LXVIII
+Output : 68
+
+Input  : CIX
+Output : 109
 
 ## ===== END =====
